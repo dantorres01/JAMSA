@@ -16,5 +16,3 @@ BLYNK_WRITE() functions: These functions are triggered when a value is received 
 Functions to save, reset and execute positions: savePositions() saves the servo positions in arrays. resetPositions() resets those arrays and the storage index. runPositions() executes the saved positions, moving the servos sequentially.
 Main Loop: Runs continuously, calling Blynk.run() to maintain communication with the application and, if execution is enabled (running is true), calls runPositions().
 In summary, the code allows controlling the robotic arm through the Blynk application, saving and executing predefined sequences of movements.
-
-Translated with DeepL.com (free version)
